@@ -1,0 +1,382 @@
+* {
+    color: #845634;
+  }
+   *::-webkit-scrollbar-thumb{
+     border-radius: 10px;
+     background-color: rgb(94, 43, 43);
+     }
+     *::-webkit-scrollbar{
+      height: 0.01px;
+      width:7px;
+      margin-right: 10px;
+  
+        }
+      b{
+        color: white;
+      }
+  a {
+    color: #916643;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Verdana, serif;
+    text-decoration: none;
+    margin: 80px;
+    transition:0.5s;
+
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #885030;
+    font-family: "Trebuchet MS", Verdana, serif;
+  }
+  .body {
+    background-color: #e3c89f;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .fff {
+    overflow:hidden;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 1175px;
+    height: 110px;
+    background-color: #e3c89f;
+    border-bottom: 2px solid #dabb8b;
+  }
+  .e {
+    color: white;
+    padding: 20px;
+    background-color: #229954;
+    border-radius: 40px;
+  }
+  .c:hover {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 65px 0px 39px;
+    transition: 450ms;
+    border-radius: 40px;
+    color: white;
+    background-color: #229954;
+  }
+  .e:hover {
+    background-color: #1e8449;
+  }
+  .d:hover {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 60px 0px 39px;
+    transition: 450ms;
+    border-radius: 40px;
+    color: white;
+    background-color: #229954;
+  }
+  .a:hover {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 54px 0px 45px;
+    transition: 450ms;
+    border-radius: 40px;
+    color: white;
+    background-color: #229954;
+  }
+  .logo {
+    margin: 0px 0px 5px 10px;
+    height: 95px;
+  }
+  .Learnprogramming {
+    color: #229954;
+    text-align: center;
+  }
+  
+  .mama1 {
+    margin-top: 40px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+  }
+  @keyframes hola {
+    0% {
+      background-color: #e74c3c;
+      width: 20px;
+      margin-top: 0px;
+      margin-left: 10%;
+    }
+    12% {
+      background-color: #9b59b6;
+      margin-left: 20%;
+      width: 10px;
+      margin-top: 20px;
+    }
+    25% {
+      background-color: #2980b9;
+      margin-left: 30%;
+      margin-top: 0px;
+  
+      width: 20px;
+    }
+    37% {
+      background-color: #1abc9c;
+      margin-left: 40%;
+      width: 10px;
+      margin-top: 20px;
+    }
+    50% {
+      margin-top: 0px;
+  
+      background-color: #27ae60;
+      width: 20px;
+      margin-left: 50%;
+    }
+    62% {
+      background-color: #2ecc71;
+      width: 10px;
+      margin-left: 60%;
+      margin-top: 20px;
+    }
+    75% {
+      margin-top: 0px;
+  
+      background-color: #f1c40f;
+      width: 20px;
+      margin-left: 70%;
+    }
+    87% {
+      background-color: #f39c12;
+      width: 10px;
+      margin-left: 80%;
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0px;
+  
+      background-color: #d35400;
+      width: 20px;
+      margin-left: 90%;
+    }
+  }
+  .mama2 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.05s;
+  }
+  .mama3 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.1s;
+  }
+  .mama4 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.15s;
+  }
+  .mama5 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+  }
+  .mama6 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.25s;
+  }
+  .mama7 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.3s;
+  }
+  .mama8 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.35s;
+  }
+  .mama9 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.4s;
+  }
+  .mama10 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.45s;
+  }
+  .mama11 {
+    margin-top: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #6e2c00;
+    animation: 3s hola alternate infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+  }
+  .lelo {
+    overflow: hidden;
+    height: 205px;
+    margin: auto;
+    width: 1175px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .imgs {
+    margin-top: 30px;
+  }
+  .imgsocial{
+    margin-right: 8%;
+  }
+  .imgsocialinst{
+    margin-right: 3%;
+  }
+  .imgsocialface{
+    margin-left: 0%;
+ 
+    margin-right: 0%;
+  }
+  .coursesdonep {
+    margin-left: auto;
+    margin-top: 60px;
+    font-family: "Trebuchet MS", Verdana, serif;
+  }
+  .progressh2{
+      display:inline-block;
+    color:white;
+    background-color:#178C3B;
+    padding: 10px;
+    border-radius:10px;
+  }
+  .coursesdoneinhtml{
+    display:inline-block;
+    margin-left: auto;
+    font-family: "Trebuchet MS", Verdana, serif;
+  }
+  .html{
+     font-family: "Trebuchet MS", Verdana, serif;
+    display:inline-block;
+      margin-left:175px;
+  
+    margin-right:355px;
+  }
+  *::selection{ background-color: aliceblue; color: #845634;}
+
+  .progressh2html{
+    font-size:22px;
+    color:white;
+    background-color:#178C3B;
+    padding: 15px;
+    border-radius:10px;
+    margin-right:20px;
+  }
+  
+  form{
+    display: inline-block;
+  }
+  button:hover{
+        background-color: #D7AD62;
+  }
+  button:disabled{
+    background-color: #E0C390;
+  }
+  button{
+    margin-top:30px;
+    border:none;
+    color:#916643;
+      font-weight:800px;
+    font-size:20px;
+    padding:15px;
+     border-radius:5px;
+      background-color: #C8A972;
+    font-family: "Trebuchet MS", Verdana, serif;
+    margin-right:20px;
+    margin-bottom:10px;
+  }
+  .buttonsection{
+    width:900px;
+    height:170px;
+     overflow:scroll;
+         overflow-x: hidden;
+  
+   
+    margin-left:auto;
+      margin-right:auto;
+  
+  }
+  .theholasection{
+    margin-top:60px;
+    display: inline-block;
+    border:3px solid #AD8B4F;
+      border-radius:15px;
+    width:1000px;
+  }
+  .thehtmltitle{
+    margin-top:0px;
+    border-bottom:1px solid #C39E5D;
+    border-radius:15px;
+  }
+  .java{
+     font-family: "Trebuchet MS", Verdana, serif;
+    display:inline-block;
+      margin-left:110px;
+    margin-right:355px;
+  }
+  h4{
+   font-family: "Trebuchet MS", Verdana, serif; 
+    margin-bottom:10px;
+    margin-top:1px;
+  }
+  
